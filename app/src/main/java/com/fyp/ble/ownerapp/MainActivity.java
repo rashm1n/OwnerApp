@@ -46,12 +46,12 @@ public class MainActivity extends AppCompatActivity {
         mac = (EditText)findViewById(R.id.editText2);
 
 
-//        Intent intent = new Intent(MainActivity.this,Main2Activity.class);
-//        MainActivity.this.startActivity(intent);
 
         next.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
+
                 Log.d("rush","inside");
                 Log.d("rush",description.getText().toString());
                 if (!mac.getText().toString().isEmpty() && !description.getText().toString().isEmpty()) {

@@ -62,7 +62,6 @@ public class Main2Activity extends AppCompatActivity {
             iniMAC= (String) savedInstanceState.getSerializable("initial mac");
         }
 
-        Log.d("rush",iniMAC);
 
         final RequestQueue queue = Volley.newRequestQueue(this);
 
